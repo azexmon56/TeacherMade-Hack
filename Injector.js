@@ -1,5 +1,5 @@
-website = getDomain(location.href);
+alert(window.location.domain);
 
-javascript: if (website == 'app.teachermade.com') {
+if (window.location.href == 'app.teachermade.com') {
   alert('done');
 }

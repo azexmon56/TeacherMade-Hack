@@ -10,16 +10,16 @@ if (window.location.hostname == 'app.teachermade.com') {
       SheetType = prompt('What type of worksheet is this? (Box or Circle Answers)');
   
   if (SheetType == 'Box') {
-    
+    alert('This SheetType hack has not been made yet!');
   } else {
     if (SheetType == 'box') {
-      
+      alert('This SheetType hack has not been made yet!');
     } else {
       if (SheetType == 'Circle Answers') {
-        
+        alert('This SheetType hack has not been made yet!');
       } else {
         if (SheetType == 'circle answers') {
-          
+          alert('This SheetType hack has not been made yet!');
         } else {
           alert('SheetType not found!');
         };

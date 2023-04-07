@@ -28,4 +28,6 @@ if (window.location.hostname == 'app.teachermade.com') {
   };
     };
   };
+} else {
+  alert('You must be at https://app.teachermade.com to use this hack!');
 };

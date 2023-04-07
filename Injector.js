@@ -30,4 +30,16 @@ if (window.location.hostname == 'app.teachermade.com') {
   };
 } else {
   alert('You must be at https://app.teachermade.com to use this hack!');
+  
+  Redirect = prompt('Do you want to be redirected to https://app.teachermade.com?');
+  
+  if (Redirect == 'No') {
+  
+  } else {
+    if (Redirect == 'no') {
+      
+    } else {
+      window.location.replace('https://app.teachermade.com/accounts/login/');
+    };
+  };
 };

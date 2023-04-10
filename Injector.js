@@ -1,3 +1,7 @@
+function DeployHack() {
+  
+};
+
 if (window.location.hostname == 'app.teachermade.com') {
   Consent = prompt('Do you want to use TeacherMade hacks?');
   
@@ -39,7 +43,13 @@ if (window.location.hostname == 'app.teachermade.com') {
     if (Redirect == 'no') {
       
     } else {
-      window.location.replace('https://app.teachermade.com/accounts/login/');
+      V = prompt('What is your url path? (Ex. https://app.teachermade.com/fill/*your code*) -leave blank if none-");
+      if (V == nil) {
+        window.location.assign('https://app.teachermade.com/accounts/login/');
+      } else {
+       
+       window.location.assign(V);
+      };
     };
   };
 };
